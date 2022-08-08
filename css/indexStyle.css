@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Signatype";
+  src: url(../font/SignatypeFree.otf);
+}
+
+
+html,body{
+  height: 100%;
+  overflow: none;
+}
+
+.container-height{
+  height: 90%
+}
+
+.cf{
+ font-family: "Signatype", serif;
+}
