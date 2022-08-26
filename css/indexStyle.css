@@ -3,16 +3,29 @@
   src: url(../font/SignatypeFree.otf);
 }
 
+@font-face {
+  font-family: "Roboto-nav";
+  src: url(../font/Roboto-Regular.ttf);
+}
 
 html,body{
   height: 100%;
   overflow: none;
 }
 
+.navbar > div > ul > li{
+  font-family: "Roboto-nav", serif;
+}
+
+nav a:hover {
+  background-color: #213242;
+}
+
 .container-height{
   height: 90%
 }
 
-.cf{
+.ct{
  font-family: "Signatype", serif;
+ color : #9BAEC2;
 }

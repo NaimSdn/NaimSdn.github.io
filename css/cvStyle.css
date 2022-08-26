@@ -1,7 +1,26 @@
+@font-face {
+  font-family: "Roboto-text";
+  src: url(../font/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-nav";
+  src: url(../font/Roboto-Regular.ttf);
+}
+
 html,body{
   height: 100%;
 }
 
+.navbar > div > ul > li{
+  font-family: "Roboto-nav", serif;
+}
+
+nav a:hover {
+  background-color: #213242;
+}
+
 .container-height{
-  height: 90%;
+  margin-top: 2%;
+  height: 85%;
 }

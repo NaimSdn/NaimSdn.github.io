@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Roboto-text";
+  src: url(../font/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-nav";
+  src: url(../font/Roboto-Regular.ttf);
+}
+
+html,body{
+  height: 100%;
+}
+
+.navbar > div > ul > li{
+  font-family: "Roboto-nav", serif;
+}
+
+
+nav a:hover {
+  background-color: #213242;
+}
+
+.container-height{
+  margin-top: 2%;
+  height: 85%;
+}
+
+.ct{
+  font-family: "Roboto", serif;
+  color : #9BAEC2;
+ }
+
+@media (max-width : 768px){
+  .container-height{
+    height: auto;
+  }
+}
+
+@media (min-width : 768px){
+  .container-height{
+    height: 85%;
+  }
+}
