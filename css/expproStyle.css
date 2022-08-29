@@ -19,3 +19,12 @@ html,body{
 nav a:hover {
   background-color: #213242;
 }
+
+.ct{
+  font-family: "Roboto", serif;
+  color : #9BAEC2;
+}
+
+.list{
+  text-align:left;
+}
